@@ -9,7 +9,7 @@ nav{
     top: 0px;
     z-index: 999;
     text-align: center;
-    margin-top: 17%;
+    margin-top: 20%;
 }
 
 nav ul
@@ -20,6 +20,7 @@ justify-content: center;
 ul li{
     display: inline-block;
     list-style-type:none;
+    margin: 50px;
 }
 
 ul li a

@@ -1,31 +1,64 @@
-.PageTitle
-{
-color:red;
-font-family: Arial, Helvetica, sans-serif ;
-font-size: 36px;
+
+
+nav{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    text-align: center;
+    margin-top: 17%;
 }
 
-.Pages
+nav ul
 {
-color:red;
-font-family: Arial, Helvetica, sans-serif;
+justify-content: center;
 }
 
-ul
-{
-list-style-type:square;
+ul li{
+    display: inline-block;
+    list-style-type:none;
 }
 
-.navlinks
- {
-    list-style: none;
-    background-color: black;
-}
-.navlinks a
+ul li a
 {
-list-style :none;
-background-color: grey;
-color: red;
-font-size: 16px;
-font-weight: bold;
+text-decoration: none;
+color: black;
+font-size: 25px;
 }
+
+
+body{
+    background-image: url("../diga3008a/images/websiteBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 220%;
+    height: 300px;
+    width: 300px;
+}
+
+a.blog{
+    background: #ffffff;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.design{
+    background: #ffffff;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.about{
+    background:#ffffff; 
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.essay{
+    background:#ffffff;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+

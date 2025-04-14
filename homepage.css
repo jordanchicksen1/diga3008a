@@ -18,7 +18,9 @@ justify-content: center;
 align-items: center;
 display: flex;
 flex-wrap: nowrap;
-
+margin-left: 782.5px;
+padding-top: 250px;
+gap: 150px;
 }
 
 .PagesImages img
@@ -28,15 +30,32 @@ max-width: 150px;
 
 }
 
+.PageTitle
+{
+    background: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px 15px;
+    border-radius: 50px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 500px;
+
+}
 nav ul
 {
 justify-content: center;
+gap: 500px;
 }
 
 ul li
 {
     display: inline-block;
     list-style-type:none;
+    
     margin: 100px;
 }
 

@@ -15,8 +15,16 @@ nav{
 .PagesImages
 {
 justify-content: center;
-
 align-items: center;
+display: flex;
+flex-wrap: nowrap;
+
+}
+
+.PagesImages img
+{
+height: auto;
+max-width: 800px;
 
 }
 

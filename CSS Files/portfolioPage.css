@@ -1,3 +1,160 @@
+.NavBar a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    gap: 5px;
+    padding: 15px 15px;
+    border-radius: 50px;
+    
+   
+}
+.NavBar{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+   
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    margin-top: 10px;
+    margin-left: 1105px;
+    
+    display:inline-block;
+    width: 100%;
+    height: 0;
+    background: #ffffff;
+  
+
+}
+
+/*body
+{
+    background-image: url(../images/articleBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    height: 150px;
+    width: 150px;
+}*/
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    background: #004AAD;
+    width: 170px;
+    padding: 15px 15px;
+    border-radius: 45px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background: #004AAD;
+    width: 125px;
+    padding: 15px 15px;
+    border-radius: 45px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.longer {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background: #004AAD;
+    width: 500px;
+    padding: 15px 15px;
+    border-radius: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+.shorter {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background: #004AAD;
+    width: 300px;
+    padding: 15px 15px;
+    border-radius: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 1000px;
+    padding-top: 10px;
+   
+}
+
+ul{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 1000px;
+    padding-top: 10px;
+    list-style-type: none;
+   
+}
+
+a.home
+{
+    background: #D9D9D9;
+    padding: 10px 8px;
+    border-radius: 50px;
+}
+
+a.blog
+{
+    background: #FFDE59;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.design
+{
+    background: #00BF63;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.about
+{
+    background:#004AAD; 
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.essay
+{
+    background:#FF5757;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+.NavBar ul{
+    gap: 100px;
+}
+
 html, body {
     min-height: 100%;
 }
@@ -12,5 +169,5 @@ html, body {
     display: block;
     justify-content: center;
     align-items: center;
-    margin-left: 630px;
+    margin-left: 820px;
 }

@@ -71,3 +71,6 @@ a.essay{
     border-radius: 50px;
 }
 
+.footer{
+    position: sticky;
+}

@@ -28,6 +28,13 @@
 
 }
 
+header{
+    max-width: 415px;
+    padding: 10px;
+    width: 100%;
+    
+}
+
 /*body
 {
     background-image: url(../images/articleBackground.png);

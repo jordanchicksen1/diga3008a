@@ -35,14 +35,23 @@ header{
     
 }
 
-/*body
-{
-    background-image: url(../images/articleBackground.png);
-    background-repeat: no-repeat;
-    background-size: 100% 200%;
-    height: 150px;
-    width: 150px;
-}*/
+.to-top{
+    position: fixed;
+    transition: all .4s;
+    left: 80rem;
+    top: 30rem;
+}
+
+.to-top img{
+ width: 50px;
+ height: 50x;
+}
+
+.to-top.active{
+    pointer-events: auto;
+    opacity:1;
+}
+
 
 h1{
     font-family:Arial, Helvetica, sans-serif;

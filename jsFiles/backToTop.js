@@ -1,9 +1,14 @@
-const toTop = document.querySelector(".to-top");
+document.addEventListener("DOMContentLoaded", function(){
+
+const toTop = document.getElementById("to-top");
 
 window.addEventListener("scroll", () =>{
+    console.log("scrolling", window.pageYOffset);
     if(window.pageYOffset > 100){
-        toTop.classList.add("active");
+       toTop.style.display = "block"
+       console.log("Show");
     } else{
-        toTop.classList.remove("active");
+        toTop.style.display = "none";
     }
 })
+});

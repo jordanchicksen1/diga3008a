@@ -33,14 +33,19 @@ header{
     width: 100%;
     
 }
-/*body
-{
-    background-image: url(../images/articleBackground.png);
-    background-repeat: no-repeat;
-    background-size: 100% 200%;
-    height: 150px;
-    width: 150px;
-}*/
+
+.to-top{
+    position:fixed;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    width: 50px;
+}
+
+.to-top.active{
+    pointer-events: auto;
+    opacity:1;
+}
 
 h1{
     font-family:Arial, Helvetica, sans-serif;

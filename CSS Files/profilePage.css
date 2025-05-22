@@ -122,6 +122,20 @@ p{
    
 }
 
+.supershort{
+     font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 30px;
+    background: #d9d9d9;
+    width: 325px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 45px;
+}
+
 ul{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;

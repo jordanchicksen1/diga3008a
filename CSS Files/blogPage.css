@@ -51,6 +51,32 @@ header{
     opacity:1;
 }
 
+.prevButton{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+     color: black;
+    text-decoration: none;
+}
+
+.nextButton{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+     color: black;
+    text-decoration: none;
+}
+
+a.prevButton{
+    background: #D9D9D9;
+    padding: 10px 8px;
+    border-radius: 50px;
+}
+
+a.nextButton{
+    background: #D9D9D9;
+    padding: 10px 8px;
+    border-radius: 50px;
+}
+
 h1{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;

@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
   const links = document.querySelectorAll("a[href]:not([target])");
 

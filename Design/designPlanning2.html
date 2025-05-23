@@ -41,9 +41,9 @@
         Inspiration:
     </h3>
  
-    <img src = "../images/wii.png" width = "400" height = "200" alt = "Nintendo Wii home menu">
-    <img src = "../images/wiiU2.png" width = "400" height = "200" alt = "Nintendo Wii U home menu">
-    <img src = "../images/IMG_5766.jpeg" width = "200" height = "200" alt = "iMessage chat screenshot">
+    <img src = "../images/wii.png" width = "400" height = "200" alt = "Nintendo Wii home menu" class="lightboxPic">
+    <img src = "../images/wiiU2.png" width = "400" height = "200" alt = "Nintendo Wii U home menu" class="lightboxPic">
+    <img src = "../images/IMG_5766.jpeg" width = "200" height = "200" alt = "iMessage chat screenshot" class="lightboxPic">
 </section>
 
 <section>
@@ -71,7 +71,7 @@
         <h4>
             White
         </h4>
-        <img src = "../images/IxDProcessImages/white.png" width = "200" height = "100">
+        <img src = "../images/IxDProcessImages/white.png" width = "200" height = "100" alt="White" class="lightboxPic">
         <ul>
             <li>
                 Hex code: #FFFFFF
@@ -86,7 +86,7 @@
     <h4>
         Grey
     </h4>
-    <img src = "../images/IxDProcessImages/grey.png" width = "200" height = "100">
+    <img src = "../images/IxDProcessImages/grey.png" width = "200" height = "100" alt="Grey" class="lightboxPic">
    <ul>
     <li>
         Hex code: #D9D9D9
@@ -101,7 +101,7 @@
     <h4>
         Red
     </h4>
-    <img src = "../images/IxDProcessImages/red.png" width = "200" height = "100">
+    <img src = "../images/IxDProcessImages/red.png" width = "200" height = "100" alt="Red" class="lightboxPic">
     <ul>
         <li>
             Hex code: #FF5757
@@ -116,7 +116,7 @@
     <h4>
         Blue 
     </h4>
-    <img src = "../images/IxDProcessImages/blue.png" width = "200" height = "100">
+    <img src = "../images/IxDProcessImages/blue.png" width = "200" height = "100" alt="Blue" class="lightboxPic">
     <ul>
         <li>
             Hex code: #004AAD
@@ -131,7 +131,7 @@
     <h4>
         Yellow
     </h4>
-    <img src = "../images/IxDProcessImages/yellow.png" width = "200" height = "100">
+    <img src = "../images/IxDProcessImages/yellow.png" width = "200" height = "100" alt="Yellow" class="lightboxPic" >
     <ul>
         <li>
             Hex code: #FFDE59
@@ -146,7 +146,7 @@
     <h4>
         Green
     </h4>
-    <img src = "../images/IxDProcessImages/green.png" width = "200" height = "100">
+    <img src = "../images/IxDProcessImages/green.png" width = "200" height = "100" alt="Green" class="lightboxPic">
     <ul>
         <li>
             Hex code: #00BF63
@@ -170,12 +170,12 @@
     <h4>
         Horizon:
     </h4>
-    <img src = "../images/IxDProcessImages/font1.png" width = "250" height = "50">
+    <img src = "../images/IxDProcessImages/font1.png" width = "250" height = "50" alt="HORIZON FONT" class="lightboxPic">
 
     <h4>
         Anonymous Pro:
     </h4>
-    <img src = "../images/IxDProcessImages/font2.png" width = "150" height = "50">
+    <img src = "../images/IxDProcessImages/font2.png" width = "150" height = "50" alt="anonymous pro" class="lightboxPic">
     <p class="filler">
 
     </p>
@@ -192,7 +192,7 @@
         Homepage sketch
     </h3>
     
-    <img src = "../images/Homepage.png" width = "400" height = "200">
+    <img src = "../images/Homepage.png" width = "400" height = "200" alt="Homepage wireframe" class="lightboxPic">
     <p class="filler">
 
     </p>
@@ -203,7 +203,7 @@
 <h3 class = "shorter">
     Blog homepage sketch:
 </h3>
-<img src = "../images/Blog Section.png" width = "400" height = "200">
+<img src = "../images/Blog Section.png" width = "400" height = "200" alt="Blog Homepage wireframe" class="lightboxPic" >
 <p class="filler">
 
 </p>
@@ -213,7 +213,7 @@
 <h3 class = "shorter">
     Design homepage skecth:
 </h3>
-<img src = "../images/Design Section.png" width = "400" height = "200">
+<img src = "../images/Design Section.png" width = "400" height = "200"alt="Design Homepage wireframe" class="lightboxPic" >
 <p class="filler">
 
 </p>
@@ -224,7 +224,7 @@
 <h3 class = "shorter">
     Portfolio and Profile homepage sketch:
 </h3>
-<img src = "../images/Profile and Portfolio Page.png" width = "400" height = "200">
+<img src = "../images/Profile and Portfolio Page.png" width = "400" height = "200" alt="Profile and Portfolio Homepage wireframe" class="lightboxPic">
 <p class="filler">
 
 </p>
@@ -234,7 +234,7 @@
 <h3 class = "shorter">
     Essay homepage sketch:
 </h3>
-<img src = "../images/Essay Section.png" width = "400" height = "200">
+<img src = "../images/Essay Section.png" width = "400" height = "200" alt="Essay Homepage wireframe" class="lightboxPic">
 <p class="filler">
 
 </p>
@@ -247,5 +247,15 @@
     Jordan Chicksen. 2025. All rights reserved. 
   </footer>
   <script src="../jsFiles/backToTop.js"></script>
+    <script src="../jsFiles/lightbox.js"></script>
+
+
+<div id="lightbox" class="lightbox">
+  <span class="lightboxClose">&times;</span>
+  <img class="lightboxContent" id="lightboxImg" alt="">
+  <div id="lightboxCaption" class="lightboxCaption"></div>
+  <a class="lightboxPrev">&#10094;</a>
+  <a class="lightboxNext">&#10095;</a>
+</div>
 </body>
 </html>

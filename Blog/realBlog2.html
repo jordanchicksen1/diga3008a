@@ -53,7 +53,7 @@
 <P>
     This will be my website's hub, it will allow the user to access the different pages. I want this to be as simple as possible, to not overwhelm the viewer, but still display everything the site has to offer.
 </P>
-<img src = "../images/Homepage.png" width = "300" height = "200">
+<img src = "../images/Homepage.png" width = "300" height = "200" alt="Homepage wireframe" class="lightboxPic">
 
 
     <h4>
@@ -63,7 +63,7 @@
     <P>
         This page will display my blogs. Each blog will have a thumbnail and a small description about what the blog is about. When you click on the thumbnail, it will take you to that specific blog's page. There is also a home button that will take you to the homepage.
     </P>
-    <img src = "../images/Blog Section.png" width = "300" height = "200">
+    <img src = "../images/Blog Section.png" width = "300" height = "200" alt="Blog Page wireframe" class="lightboxPic">
     
     <h4>
         Essay Page
@@ -72,7 +72,7 @@
     <P>
         This page will display my essays, much like how my blogs will be displayed. Clicking the thumbnails for the essays will open that essays' page.
     </P>
-    <img src = "../images/Essay Section.png" width = "300" height = "200">
+    <img src = "../images/Essay Section.png" width = "300" height = "200" alt="Essay Section wireframe" class="lightboxPic" >
 
     <h4>
     Design Page
@@ -81,7 +81,7 @@
     <P>
         This will be split into two sections: Design and IxD Process. The design section will feature the work-in-progress snapshots of my website, specifically the visuals. The IxD Process section will feature my planning for the structure (how my pages are connected) of my site.
     </P>
-    <img src = "../images/Design Section.png" width = "300" height = "200">
+    <img src = "../images/Design Section.png" width = "300" height = "200" alt="Design section wireframe" class="lightboxPic" >
 
     <h4>
         Profile and Porfolio Page
@@ -90,7 +90,7 @@
         <P>
             This page will display information that I have on my LinkedIn page, and will display the games I have put on Itch.io.  For the games, if you click on the game's thumbnail, it will take you to that games' Itch page.
         </P>
-        <img src = "../images/Profile and Portfolio Page.png" width = "300" height = "200">
+        <img src = "../images/Profile and Portfolio Page.png" width = "300" height = "200" alt="Profile and Portfolio section wireframe" class="lightboxPic">
 <h4>
     Inspirational website
 </h4>
@@ -107,7 +107,16 @@
     Interaction to me is creating the conventions and space for your user to explore what you have created.  It is fundamental to the technology as a whole for me. Systems without the space for users, ones that are built to run without human interaction don't even feel like technology to me. The just feel like attributes of an environment, they blend in to the point where I almost don't even notice them. An example of this are streetlights. 
 </p>
 <script src="../jsFiles/backToTop.js"></script>
+<script src="../jsFiles/lightbox.js"></script>
 
+
+<div id="lightbox" class="lightbox">
+  <span class="lightboxClose">&times;</span>
+  <img class="lightboxContent" id="lightboxImg" alt="">
+  <div id="lightboxCaption" class="lightboxCaption"></div>
+  <a class="lightboxPrev">&#10094;</a>
+  <a class="lightboxNext">&#10095;</a>
+</div>
 
 </body>
 <footer class = "footer">

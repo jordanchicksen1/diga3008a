@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name = "author" content="Jordan Chicksen">
+<meta name = "description" content="Design Planning 2">
+<meta name = "keywords" content = "Designs, process, IxD, planning">
+<link rel="stylesheet" href="../diga3008a/normalize.css">
+<link rel ="stylesheet" href = "../CSS Files/designPages.css">
+<link rel = "stylesheet" href ="../main.css">
+<title>Design Planning 3</title>
+</head>
+<header class =  "NavBar">
+<a href = "../index.html" class = "home"> home</a>  <a href = "../Blog/blog.html" class = "blog"> blogs</a>  <a href = "../Design/design.html" class = "design"> design</a>  <a href = "../Essays/essays.html" class = "essay">essays</a>  <a href = "../profileAndPortfolio/profilePortfolio.html" class = "about"> about</a>
+</header>
+<body >
+    <a href="#" class="to-top" id="to-top" style="display: none;">
+<img src="../images/backToTop.png"  alt="back to top button" >
+</a>
+    <h1>
+       PLANNING
+    </h1>
+     <div class="next-and-prev-buttons">
+<a href="../Design/designPlanning2.html" class="prevButton">prev</a>
+   </div>
+<p class="filler">
+
+</p>
+
+ <p>
+    For this section, I wanted to go through my planning and execution of my javascript related features, explaining why I thought that they were necessary and whether I could've done better in my implementation of them. I'll be focusing on the back-to-top button, the lightboxes and the screen transitions.    
+</p>
+
+    <h2 class = "shorter">
+        Back-To-Top Button
+    </h2>
+   <section>
+    <p class = "filler">
+
+    </p>
+    <p>
+        Functionally, this button allows users to go back to the top of a page that they've scrolled down on. This mitigates tiresome scrolling after they have finished reading the content of a page. It appears on the screen after they have scrolled 100 pixels, and once clicked, it smoothly takes them to the top of the page and then disappears. On it's execution, I think it works quite well most of the time. However, every now and ten, I encounter a bug where it will scroll to the top of the previous section and not to the top of the whole page. I don't know how to fix this error, but it doesn't occur frequently and is quite hard to replicate.
+    </p>
+    
+ 
+    <img src = "../images/backToTopButtonDemo.png" width = "400" height = "200" alt = "Back-To-Top Button demonstation" class="lightboxPic">
+   
+</section>
+
+<section>
+    <h3 class = "shorter">
+        Lightbox
+    </h3>
+  <p class="filler">
+
+  </p> 
+   <p>
+    This feature allows users to click on basically every picture on the site to focus on it, whilst dimming the rest of the site and displaying a caption for that image. This is probably the most visually stimulating feature on my site, as pictures are outlined by the colour of the section that they're in and enlarges the image when they hover on it. Then, once they click on the image, it displays the image at its original resolution, whilst displaying the words written as alt text as a caption. When users view the images in this way, they are able to click through all of the images on that page with arrows on the left and right of the screen. To exit this view, user can click the X in the top right corner or anywhere outside the image. Execution wise, I think this feature functions quite well. The only issue is that if the image is quite small, such as my pixel art game's assets which were 64x64, the image can be displayed quite small. I couldn't figure out a more elegant way to do this, because if I set the images to all be displayed at consistent resolution, most of them would end up being stretched or deformed in some way. This is something that I still need to work on.
+ </p>
+           
+ <img src = "../images/lightboxDemo.png" width = "400" height = "200" alt = "Lightbox demonstation" class="lightboxPic">
+      
+</section>
+
+<section>
+    <h3 class = "shorter">
+        Page Transition
+    </h3>
+  <p class="filler">
+
+  </p> 
+   <p>
+    This feature happens when users traverse between the pages of the site. When a user clicks on a link to go to another page, all of the elements on their current page fade out and then the new page occurs. This was the feature that I struggled with the most and turned out the shoddiest. Originally, I wanted the transition to be more of a swipe across the screen, but then that broke the lightboxes and the layout of the section homepages. Then, I tried to make the transition more of a fade out and fade in, where it would fade out the current page and then fade in the new one, but this created conflicts in the CSS, where both would sort of cancel each other out (or at least I think that's what was happening). So, I settled for the fade out that is currently present on the site. However, the feature can also be slightly buggy if the page takes a little longer to load than other pages, and there seems to be a very slight delay on the new page appearing. This is the feature that I need to work on the most for the next submission. 
+     </p>
+           
+ 
+      
+</section>
+
+<section>
+    <h3 class = "shorter">
+        Javascript features that I still need to add:
+    </h3>
+  <p class="filler">
+
+  </p> 
+   <p>
+    I still need to add a feature that utilizes APIs in some way. At the moment (from Iman's advice), I'm thinking of adding a feature where users can type in their birthday, and then my site will utilize an API that contains a list of games, and display a game that came out in the year that they were born. I don't really know how I will go about this, but I will need to start by finding a suitible API for this task. After that, I will figure out the necessary functions to make it happen. 
+</p>
+           
+ 
+      
+</section>
+ <footer class = "footer">
+    Jordan Chicksen. 2025. All rights reserved. 
+  </footer>
+  <script src="../jsFiles/backToTop.js"></script>
+    <script src="../jsFiles/lightbox.js"></script>
+
+
+<div id="lightbox" class="lightbox">
+  <span class="lightboxClose">&times;</span>
+  <img class="lightboxContent" id="lightboxImg" alt="">
+  <div id="lightboxCaption" class="lightboxCaption"></div>
+  <a class="lightboxPrev">&#10094;</a>
+  <a class="lightboxNext">&#10095;</a>
+</div>
+
+<script src="../jsFiles/pageTransition.js"></script>
+
+</body>
+</html>

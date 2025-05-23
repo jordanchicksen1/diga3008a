@@ -309,7 +309,7 @@ html, body {
 }
 
 .lightboxPrev:hover, .lightboxNext:hover {
-    background-color: black;
+    background-color: blue;
 }
 
 .lightboxPic {
@@ -319,7 +319,7 @@ html, body {
 
 .lightboxPic:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 20px black;
+  box-shadow: 0 4px 20px blue;
 }
 
 body.fade-out {

@@ -189,7 +189,7 @@ max-width:200px;
 }
 
 .lightboxPrev:hover, .lightboxNext:hover {
-    background-color: black;
+    background-color: red;
 }
 
 .lightboxPic {
@@ -199,7 +199,7 @@ max-width:200px;
 
 .lightboxPic:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 20px black;
+  box-shadow: 0 4px 20px red;
 }
 
 body.fade-out {

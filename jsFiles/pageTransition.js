@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.add("fade-out");
       setTimeout(() => {
         window.location.href = href;
-      }, 500); // Match CSS transition duration
+      }, 600); // Match CSS transition duration
     });
   });
 });

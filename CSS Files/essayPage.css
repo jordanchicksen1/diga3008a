@@ -237,3 +237,12 @@ html, body {
     /*margin-left: 820px;*/
 }
 
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+body {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}

@@ -20,6 +20,7 @@ img {
 input {
   padding: 8px;
   font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 button {
@@ -32,10 +33,11 @@ button {
   border-radius: 4px;
   color: black;
   font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 button:hover {
-  background-color: #f7b500;
+  background-color: #D9D9D9;
 }
 
 .correct {
@@ -282,4 +284,13 @@ html, body {
     justify-content: center;
     align-items: center;
    /* margin-left: 820px;*/
+}
+
+#score {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
 }

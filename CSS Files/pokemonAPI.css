@@ -1,0 +1,285 @@
+body {
+  font-family: sans-serif;
+  
+  margin-top: 50px;
+  background-color: #f8f9fa;
+}
+
+
+
+img {
+  width: 200px;
+  filter: brightness(0);
+  transition: filter 0.5s;
+}
+
+.revealed img {
+  filter: brightness(1);
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: #004AAD;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f7b500;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
+
+.NavBar a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    gap: 5px;
+    padding: 15px 15px;
+    border-radius: 50px;
+    
+   
+}
+.NavBar{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+   
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    margin-top: 10px;
+    margin-left: 1105px;
+    
+    display:inline-block;
+    width: 100%;
+    height: 0;
+    background: #ffffff;
+  
+
+}
+
+header{
+    max-width: 415px;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.prevButton{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+     
+    
+}
+
+.nextButton{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    
+    
+    
+}
+
+
+
+.next-and-prev-buttons{
+    padding-left: 90%;
+}
+
+a.prevButton{
+    background: #D9D9D9;
+    padding: 10px 8px;
+    border-radius: 50px;
+   
+}
+
+a.nextButton{
+    background: #D9D9D9;
+    padding: 10px 8px;
+    border-radius: 50px;
+    
+}
+
+.to-top{
+    position: fixed;
+    transition: all .4s;
+    left: 80rem;
+    top: 30rem;
+}
+
+.to-top img{
+ width: 50px;
+ height: 50x;
+}
+
+.to-top.active{
+    pointer-events: auto;
+    opacity:1;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    background: #004AAD;
+    width: 170px;
+    padding: 15px 15px;
+    border-radius: 45px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background: #004AAD;
+    width: 125px;
+    padding: 15px 15px;
+    border-radius: 45px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.longer {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background: #004AAD;
+    width: 500px;
+    padding: 15px 15px;
+    border-radius: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+.shorter {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    background: #004AAD;
+    width: 300px;
+    padding: 15px 15px;
+    border-radius: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+.filler{
+    background: none;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 30px;
+    background: #d9d9d9;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 45px;
+   
+}
+
+ul{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 1000px;
+    padding-top: 10px;
+    list-style-type: none;
+   
+}
+
+a.home
+{
+    background: #D9D9D9;
+    padding: 10px 8px;
+    border-radius: 50px;
+}
+
+a.blog
+{
+    background: #FFDE59;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.design
+{
+    background: #00BF63;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.about
+{
+    background:#004AAD; 
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+a.essay
+{
+    background:#FF5757;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+.NavBar ul{
+    gap: 100px;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+.footer
+{
+   /* position: absolute;*/
+    bottom:0;
+    text-align: center;
+    margin: auto 0;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* margin-left: 820px;*/
+}

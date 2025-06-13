@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name = "author" content="Jordan Chicksen">
+<meta name = "description" content="Pokemon API task">
+<meta name = "keywords" content = "Portfolio, API, Pokemon">
+  <title>Pokemon API Task</title>
+  <link rel="stylesheet" href="../CSS Files/pokemonAPI.css">
+</head>
+<body>
+<header class = "NavBar">
+    <a href = "../index.html" class = "home"> home</a>  <a href = "../Blog/blog.html" class ="blog"> blogs</a>  <a href = "../Design/design.html" class = "design"> design</a>  <a href = "../Essays/essays.html" class = "essay">essays</a>  <a href = "../profileAndPortfolio/profilePortfolio.html" class = "about">about</a>
+</header>
+  <h1 class ="shorter">
+    Who's That Pokémon?
+</h1>
+</br>
+<div class="next-and-prev-buttons">
+<a href="../profileAndPortfolio/realProfile.html" class="prevButton">prev</a>
+</div>
+
+  <div id="pokemonContainer">
+    <img id="pokemonImg" src="" alt="Who's that Pokémon?">
+  </div>
+
+  <div>
+    <input type="text" id="guessInput" placeholder="Enter Pokémon name">
+    <button onclick="checkGuess()">Guess</button>
+  </div>
+<p class="filler">
+
+</p>
+  <p id="resultMessage">
+
+  </p>
+  <button onclick="loadPokemon()">Next Pokémon</button>
+<p class="filler">
+
+</p>
+    <footer class = "footer">
+        Jordan Chicksen. 2025. All rights reserved. 
+    </footer>
+    <script src="../jsFiles/pageTransition.js"></script>
+  <script src="../jsFiles/pokemonAPI.js"></script>
+
+</body>
+</html>
